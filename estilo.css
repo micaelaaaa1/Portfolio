@@ -1,0 +1,118 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Bitter:ital,wght@0,100..900;1,100..900&family=Black+Ops+One&family=Didact+Gothic&family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
+
+/* ---------- BODY ---------- */
+body {
+   background-color: rgb(80, 2, 76);
+    font-family: "Didact Gothic", sans-serif;
+    text-decoration: none;
+    color: beige;
+    margin: 0;
+}
+
+/* ---------- TITULOS ---------- */
+h1, h2, h3, h4, h5 {
+    color: aquamarine;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 45px;
+}
+
+/* ---------- MAIN ---------- */
+main {
+    background-color: rgb(165, 1, 187);
+    width: 1000px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+/* ---------- HEADER & FOOTER ---------- */
+header, footer {
+    background-color: rgb(231, 1, 252);
+    color: rgb(0, 236, 253);
+    padding: 50px;
+    text-align: center;
+}
+
+/* ---------- NAV ---------- */
+nav ul {
+    list-style: none;
+    border-bottom: 2px solid violet;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(85, 2, 102);
+}
+
+nav a {
+    text-decoration: none;
+    color: aqua;
+}
+
+nav a:hover {
+    color: blueviolet;
+    background-color: blue;
+}
+
+/* ---------- SECTION ---------- */
+section {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+/* ---------- IMAGENES ---------- */
+.centrado {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.adaptable {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media screen and (max-width: 600px) {
+    header, footer {
+        padding: 20px;
+    }
+
+    section {
+        display: block;
+    }
+}
+
+.modal-content {
+
+  background-color: #09edf5;
+  color: #000000;
+}
+
+.modal-title{
+    color: rgb(233, 0, 202);
+}
+
+img {
+    width: 700px;
+    height: 700px;
+}
+
+p{
+    font-size: 21px;
+}
+
+li{
+    font-size: 21px;
+}
+
+.card-title {
+  font-size: 21px;
+}
